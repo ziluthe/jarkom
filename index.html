@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KITA HARUS SEHAT!!</title>
+</head>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(1.jpg);
+}
+
+img {
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 780px;
+    height: auto;
+    object-fit: cover;
+}
+
+#wrapper {
+    width: 780px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#header {
+    background: url(Microsoft-Logo.png) repeat-x #8F7F5D;
+    height: auto;
+    width: 100%;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+#menu {
+    background: url(Microsoft-Logo.png) repeat-x #8F7F5D;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+
+#menu-utama {
+    margin-top: 6px;
+    list-style: none;
+}
+
+#menu-utama li {
+    float: left;
+    padding: 8px 20px;
+    border-radius: 1px solid lavender;
+}
+
+#menu-utama li a {
+    color: lavender;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    font-weight: bold;
+}
+
+#header form {
+    float: right;
+    margin-top: 7px;
+    margin-right: 25px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.cari {
+    padding: 8px 15px;
+    background: gold;
+    color: white; 
+}
+
+#header form input {
+    height: 20px;
+    width: 100%;
+}
+
+#daftar-artikel {
+    width: 470px;
+    float: left;
+}
+
+.artikel {
+    background-color: lavender; 
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.artikel img {
+    float: left;
+    margin-right: 15px;
+}
+
+.artikel b {
+    color:hotpink; 
+    background-color: transparent;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.artikel p {
+    margin: 10px 0;
+}
+
+.artikel button {
+    background-color: hotpink; 
+    color: white; 
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: lavender;
+}
+
+#sidebar {
+    width: 270px;
+    float: right;
+}
+
+#sidebar h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white;
+}
+
+#sidebar p {
+    line-height: 20px;
+    color: white; 
+}
+
+#sidebar ul {
+    margin-left: 10px;
+}
+
+#sidebar ul li a {
+    color: blueviolet; 
+    text-decoration: none;
+}
+
+#footer {
+    clear: both;
+    margin: 20px 0;
+    text-align: center;
+    background-color: transparent;
+    padding: 5px;
+    color: hotpink; 
+}
+/* Media query untuk responsif */
+@media only screen and (max-width: 600px) {
+            form {
+                max-width: 100%;
+            }
+        }
+</style>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <img class="logo" src="8.jpg" alt="logo" />
+
+        <div id="menu">
+            <ul id="menu-utama">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="Tentang.html">Tentang</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li class="logout"><a href="logout.php">Logout</a></li>
+            </ul>
+            <form>
+                <input class="cari" type="text" placeholder="cari.." />
+            </form>
+        </div>
+
+    </div>
+
+    <div id="daftar-artikel">
+        <div class="artikel">
+            <img src="2.jpg" alt="artikel-1" />
+            <h1>Depresi</h1>
+            <b>10 Okt 2019</b>
+            <b>Penonton: 1.736.216</b>
+            <p> Depresi sering menjadi bahan bercandaan kita. Namun, apakah kalian sudah tahu, sebenarnya apa yang dimaksud dengan depresi? Apakah dapat mengancam nyawa? 
+                Dan bagaimana kita dapat menanganinya?Kami ingin mengajak kalian semua untuk memastikan, bahwa orang - orang terdekat yang kalian sayangi, baik - baik saja. 
+                Yuk, coba hubungi mereka sekarang! Siapa yang tahu? Maybe, a simple call can make their day? :)
+                Mau mendukung kami lebih jauh lagi?, you can do it by showing us some love!.</p>
+            <button><a href="https://youtu.be/wr2IqS8bsS4?si=g5hSJnPhdPh8Phzk">Klik Video</a></button>
+        </div>
+        <div class="artikel">
+            <img src="3.jpg" alt="artikel-2" />
+            <h1>Bipolar</h1>
+            <b>20 Mar 2021</b>
+            <b>Penonton: 1.188.022</b>
+            <p>Bagi penderita gangguan Bipolar, naik turun suasana hati terjadi tanpa alasan. Banyak orang salah kaprah, dan justru menyepelekan gangguan bipolar karena kemiripannya dengan 'Mood Swings' yang dialami semua orang. 
+                Namun, tidak kasat mata bukan berarti tidak berdampak. Lalu, apa sebenarnya itu Gangguan Bipolar? Bagaimana caranya tahu seseorang mengalami gangguan bipolar? Semua pertanyaan-pertanyaan tersebut akan kami jawab dalam video ini.</p>
+            <button><a href="https://youtu.be/dfeen7_eFTs?si=5D_qsHGcGpe09srm">Klik Video</button></a>
+     </div>
+        <div class="artikel">
+            <img src="4.jpg" alt="artikel-3" />
+            <h1>Anxiety Disorder</h1>
+            <b>30 Sep 2021</b>
+            <b>Penonton : 1.325.507</b>
+            <p>Rasa cemas harusnya sesuatu yang biasa, tetapi mengapa aku merasa cemas setiap saat? Perasaan cemas yang membuat seseorang merasa dirinya tidak bisa bernafas, nyeri-nyeri, dan kesulitan tidur, tentunya bukan sesuatu yang normal. 
+            Hal tersebut bisa jadi gejala-gejala dari Gangguan Kecemasan Umum atau Generalized Anxiety Disorder, apa sebenarnya yang membuat suatu Anxiety Disorder berbeda dengan rasa cemas sehari-hari?</p>
+            <button><a href="https://youtu.be/k_aFpRPwF3o?si=I9JIXfAgyU65YRdg">Klik Video</button></a>
+        </div>
+        <div class="artikel">
+            <img src="5.jpg" alt="artikel-4" />
+            <h1>Skizofrenia</h1>
+            <b> 20 Okt 2020</b>
+            <b>Penonton : 1.179.392</b>
+            <p>Ketika orang mendengar kata "Skizofrenia" mereka otomatis membayangkan orang gila yang membawa masalah bagi masyarakat sekitar, padahal stigma ini sangat jauh dari kenyataan. 
+             Skizofrenia adalah kelainan mental yang sangat kompleks, dan satu-satunya cara untuk membantu penderitanya adalah dengan lebih banyak orang mengenal dan memahami apa itu Skizofrenia sebenarnya.
+             Itulah tujuan kami membuat video ini, untuk menjelaskan secara sederhana apa itu skizofrenia, apa penyebabnya, dan paling penting apa yang bisa dilakukan untuk membantu para penderitanya.</p>            
+             <button><a href="https://youtu.be/trSHTvxKwGg?si=q9Qjtqe7_jjBOqSP">Klik Video</button></a>
+        </div>
+        <div class="artikel">
+            <img src="6.jpg" alt="artikel-4" />
+            <h1> Gangguan Obsesif-Kompulsif (OCD)</h1>
+            <b>30 Agu 2021</b>
+            <b>Penonton : 549.896</b>
+            <p>Gangguan Obsesif-Kompulsif, lebih dikenal dengan “OCD”, merupakan suatu kondisi yang banyak disalahpahami oleh orang-orang. 
+                Kebanyakan orang berasumsi bahwa jika kamu benci kotoran dan suka menata segala sesuatu dengan rapi dan simetris, artinya kamu “OCD”. Padahal, kenyataannya jauh lebih rumit dari itu.</p>
+            <button><a href="https://youtu.be/7iwQFArO0xs?si=txhcL6STz7KhQVQi">Klik Video</button></a>
+        </div>
+    </div>
+
+        <div id="sidebar">
+            <h2>About Our Website</h2>
+            <p>MentalHealth.id adalah sebuah website yang bertemakan kepudulian kita terhadap kesehatan mental.
+                sebagai sebuah bentuk perjuangan, agar mereka mendapatkan sebuah solusi terhadap
+                kesehatan mental yang mereka alami.
+            </p>
+        </div>
+
+         <div id="footer">
+            <p>Zieluth copyright 2023 MentalHealth.id</p>
+        </div>
+        </div>
+    </body>
+    </html>
